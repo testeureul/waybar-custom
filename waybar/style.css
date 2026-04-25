@@ -1,13 +1,12 @@
 /* colors defined at top for easy configuring */
-@define-color background #2C2A24;
+@define-color background #1e1e1f;
 @define-color second-background #3A372F;
 @define-color text #DDD5C4;
-@define-color borders #A0907A;
-@define-color focused #D08B57;
-@define-color focused2 #BFAA80;
-@define-color color1 #7699A3;
+@define-color borders #5BCEFA;
+@define-color focused #437C91;
+@define-color focused2 #437C91;
 @define-color color2 #8D7AAE;
-@define-color color3 #78997A;
+@define-color color3 #F5A9B8;
 @define-color urgent #B05A5A;
 
 
@@ -17,9 +16,11 @@
   font-size: 15px;
 }
 
-#custom-openbracket,
+#custom-openbracket{
+  margin: 0 3px;
+}
 #custom-closebracket {
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 /* idk what all this does */
@@ -85,7 +86,7 @@ button {
 }
 
 #custom-powerprofile:hover {
-  color: @color1
+  color: @color1;
 }
 
 #custom-themeswitcher:hover {
@@ -150,7 +151,6 @@ button {
 #battery,
 #cpu,
 #memory,
-#custom-clipboard,
 #custom-bluetooth,
 #network {
   padding: 0 10px;
@@ -159,14 +159,13 @@ button {
 #clock:hover,
 #battery:hover,
 #custom-cpu:hover,
-#custom-clipboard:hover,
 #custom-bluetooth:hover,
 #network:hover,
 #idle_inhibitor:hover,
 #custom-swaync:hover,
 #backlight:hover,
 #pavucontrol:hover {
-  color: @color1;
+  color: @color;
 }
 
 #idle_inhibitor {
@@ -184,7 +183,7 @@ button {
 }
 
 .muted {
-  background-color: @color2;
+  background-color: @color3;
 }
 
 #custom-swaync {
