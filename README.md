@@ -1,5 +1,5 @@
 
-# waybar-custom
+# Waybar-custom and Sway conf
 
 /!\ Disclaimer : 
 Only configuration for my personally conf(I'm on sway, not hyprland), if you want all config please use "Hyprland-dots -- DerAnsari"
