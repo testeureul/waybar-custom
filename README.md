@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # waybar-custom
-=======
+
 /!\ Disclaimer : 
 Only configuration for my personally conf(I'm on sway, not hyprland), if you want all config please use "Hyprland-dots -- DerAnsari"
 /!\
@@ -10,24 +10,24 @@ Only configuration for my personally conf(I'm on sway, not hyprland), if you wan
 
 Install :
 
-./system_monitoring
+.System_monitoring
 
     btop - Resource monitor with Gruvbox theming
     cava - Audio visualizer for aesthetics
     fastfetch - Clean system information display
 
-./window_management
+.Window_management
 
     waybar - Status bar with custom modules
     wofi - Application launcher
 
-./applications
+.Applications
 
     kitty(or foot but need modify file) - Terminal emulator with Gruvbox colors
     vesktop - Discord client with custom styling
     yazi - File manager with vim-like (very style)
 
-./utilities
+.Utilities
 
     sway-screenshot - Screenshot tool
     zshrc - Shell configuration with aliases and theming
@@ -61,6 +61,3 @@ yay -S sway-screenshot vesktop yazi cava btop
 
 ```
 
-
-
->>>>>>> f2d691c (Add existing file)
