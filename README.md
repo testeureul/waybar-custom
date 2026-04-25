@@ -47,11 +47,8 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Iosevka.zi
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IosevkaMono.zip
 unzip Iosevka.zip -d ~/.local/share/fonts/
 unzip IosevkaMono.zip -d ~/.local/share/fonts/**Fonts (Required for proper display):**
-```bash
-# Install Iosevka Nerd Fonts
-yay -S ttf-iosevka-nerd ttf-iosevka-nerd-mono
-
 ```
+## ** Please Install ** ##
 
 ```bash
 
